@@ -1,0 +1,7 @@
+~hg/repos/*/.hg/mercurial-server.log {
+    su hg hg
+    daily
+    missingok
+    rotate 60
+    create 664 hg hg
+}
